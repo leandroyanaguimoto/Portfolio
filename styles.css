@@ -1,0 +1,81 @@
+/* Estilo geral do documento */
+body {
+    font-family: 'Caveat', cursive; /* Define a fonte para Caveat */
+    margin: 0; /* Remove margens padrão */
+	background-color: #ffffb3;
+}
+
+/* Estilo so do cabeçalho */
+header {
+    background-color: #33001a; /* Cor de fundo  */
+    color: #fff; /* Cor do texto  */
+    padding: 20px 0; /* Espaçamento interno */
+    position: fixed; /* Fixa o cabeçalho-menu no topo */
+    top: 0; /* Coloca o cabeçalho no topo da página */
+    left: 0; /* Alinha  à esquerda */
+    width: 100%; /* Largura total  */
+}
+
+/* Estilo de navegaçao */
+nav ul {
+    list-style-type: none; /* Remove marcadores */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove preenchimento */
+    text-align: center; /* Alinha ao centro */
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto   */
+    text-decoration: none; /* Remove sublinhado   */
+    font-size: 18px; /* Tamanho da fonte   */
+}
+
+li a:hover {
+    background-color:#8080ff /* mudar cor ao manter o mouse */
+}
+/* Estilo para o conteúdo principal */
+main {
+    padding-top: 50px; /* Adiciona espaço para o cabeçalho fixo */
+}
+
+/* Estilo para cada seção */
+section {
+    padding: 50px 20px; /* Adiciona espaçamento interno  */
+	margin: 1em;
+}
+
+div{ 
+}
+.port{
+
+	margin: 5em; /* espaçamento entre link */
+}
+
+
+/* Estilo para títulos */
+h1, h2 {
+    margin-bottom: 20px; /* Adiciona espaçamento  */
+}
+ footer {
+	 text-align: center;
+}
+
+@media only screen and (max-width: 600px) { /* muda cor ao diminuir tela */
+  body {
+    background-color: #e6ffff;
+  }
+}	
+
+/* tamanho para web  */
+[class*="col-"] {
+  width: 100%;
+}	 
